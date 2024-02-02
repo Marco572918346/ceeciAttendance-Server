@@ -1,9 +1,9 @@
 import { Sequelize } from 'sequelize';
 
-const sequelize = new Sequelize('ceeci_listv2', 'root', undefined, {
-  host: '127.0.0.1',
+const sequelize = new Sequelize('ceeci_prospectos', 'admin', 'n1z4pH3c', {
+  host: 'mysql-160592-0.cloudclusters.net',
   dialect: 'mysql',
-  port: 3306
+  port: 16843
 });
 
 export default sequelize;
