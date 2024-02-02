@@ -1,4 +1,4 @@
-# ExampleAngularv2
+# Server
 
 This project was generated with NodeJs & Express
 
