@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const rolllist_1 = require("../controllers/rolllist");
+const router = (0, express_1.Router)();
+router.get('/', rolllist_1.getRollsList);
+router.get('/:id', rolllist_1.getRollList);
+// router.delete('/:id', deleteRollListpostRollList);
+router.post('/', rolllist_1.postRollList);
+// router.put('/:id', updateRollListpostRollList);
+exports.default = router;
